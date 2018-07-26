@@ -10,13 +10,13 @@ public class Personnage {
     private int agilite;
     private int intelligence;
 
-    public Personnage(int niveau, int vie, int force, int agilite, int intelligence) {
-        this.vie = vie;
+    public Personnage(int niveau, int force, int agilite, int intelligence) {
         this.force = force;
         this.agilite = agilite;
         this.intelligence = intelligence;
-        if ((vie + force + agilite + intelligence) > niveau) throw new SommeCaracteristiqueSuperieurAuNiveau();
+        if ((force + agilite + intelligence) > niveau) throw new SommeCaracteristiqueSuperieurAuNiveau();
         this.niveau = niveau;
+        this.vie = niveau * 5;
     }
 
     public void basicAttack(Personnage p) {}

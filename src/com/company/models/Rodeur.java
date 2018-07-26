@@ -3,8 +3,8 @@ package com.company.models;
 import com.company.Personnage;
 
 public class Rodeur extends Personnage {
-    public Rodeur(int niveau, int vie, int force, int agilite, int intelligence) {
-        super(niveau, vie, force, agilite, intelligence);
+    public Rodeur(int niveau, int force, int agilite, int intelligence) {
+        super(niveau, force, agilite, intelligence);
     }
 
     @Override
