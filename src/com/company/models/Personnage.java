@@ -42,4 +42,10 @@ public class Personnage {
     public int getIntelligence() {
         return intelligence;
     }
+
+    public String introduce() {
+        return crie() +  " je suis le " + this.getClass().getSimpleName();
+    }
+
+    protected String crie() {return "";}
 }

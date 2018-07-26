@@ -16,4 +16,9 @@ public class Mage extends Personnage {
     public void specialAttack(Personnage p) {
         super.specialAttack(p);
     }
+
+    @Override
+    protected String crie() {
+        return "Abracadabra";
+    }
 }

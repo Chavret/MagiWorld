@@ -16,4 +16,9 @@ public class Guerrier extends Personnage {
     public void specialAttack(Personnage p) {
         super.specialAttack(p);
     }
+
+    @Override
+    protected String crie() {
+        return "Woarg";
+    }
 }
