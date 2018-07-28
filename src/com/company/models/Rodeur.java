@@ -9,12 +9,12 @@ public class Rodeur extends Personnage {
 
     @Override
     public void basicAttack(Personnage p) {
-        super.basicAttack(p);
+
     }
 
     @Override
     public void specialAttack(Personnage p) {
-        super.specialAttack(p);
+
     }
 
     @Override

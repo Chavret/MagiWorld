@@ -21,9 +21,9 @@ public abstract class Personnage {
         this.playerNumber = playerNumber;
     }
 
-    public void basicAttack(Personnage p) {}
+    public abstract void basicAttack(Personnage p);
 
-    public void specialAttack(Personnage p) {}
+    public abstract void specialAttack(Personnage p);
 
     public int getNiveau() {
         return niveau;
