@@ -1,6 +1,6 @@
 package com.company.models;
 
-import com.company.Personnage;
+import com.company.models.Personnage;
 import com.company.exceptions.SommeCaracteristiqueSuperieurAuNiveau;
 
 import java.util.Scanner;
@@ -50,6 +50,10 @@ public class Game {
         int agilite = sc.nextInt();
         System.out.println("Intelligence du Personnage ?");
         int intelligence = sc.nextInt();
+        return instantiatePlayer(playerClass, niveau, force, agilite, intelligence, playerNumber);
+    }
+
+    private Personnage instantiatePlayer(int playerClass, int niveau, int force, int agilite, int intelligence, int playerNumber) {
         Personnage p = null;
         try {
             switch (playerClass) {
@@ -77,9 +81,9 @@ public class Game {
         System.out.println(player1.askPlayerAction());
         int action = sc.nextInt();
         if (action == 1) {
-
+            attackPlayer.basicAttack(defensePlayer);
         } else if (action == 2) {
-
+            attackPlayer.specialAttack(defensePlayer);
         } else {
             System.out.println("Veuillez choisir une action valide (1 ou 2)");
             turn(attackPlayer, defensePlayer);

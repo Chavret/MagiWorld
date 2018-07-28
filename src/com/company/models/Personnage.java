@@ -1,4 +1,4 @@
-package com.company;
+package com.company.models;
 
 import com.company.exceptions.SommeCaracteristiqueSuperieurAuNiveau;
 
@@ -21,18 +21,22 @@ public abstract class Personnage {
         this.playerNumber = playerNumber;
     }
 
-    public abstract void basicAttack(Personnage p);
-
-    public abstract void specialAttack(Personnage p);
-
+    // PUBLIC
     public void removeVie(int dommages) {
         int oldVie = this.vie;
-        this.vie = (this.vie - dommages >= 0) ? this.vie - dommages : 0;
-        System.out.println("Joueur " + getPlayerNumber() + " perd " + (oldVie - this.vie) + " points de vie");
+
+        if (dommages > 0) {
+            this.vie = (this.vie - dommages >= 0) ? this.vie - dommages : 0;
+            System.out.println("Joueur " + getPlayerNumber() + " perd " + (oldVie - this.vie) + " points de vie");
+        }
     }
 
     public void addVie(int vie) {
         this.vie = this.vie + vie;
+    }
+
+    public void addAgilité(int agi) {
+        this.agilite = this.agilite + agi;
     }
 
     public int getNiveau() {
@@ -69,6 +73,11 @@ public abstract class Personnage {
                 "(1 : Attaque Basique, 2 : Attaque Spécial)");
     }
 
-    // ABSTRACT
+    // PUBLIC ABSTRACT
+    public abstract void basicAttack(Personnage p);
+
+    public abstract void specialAttack(Personnage p);
+
+    // PROTECTED ABSTRACT
     protected abstract String crie();
 }

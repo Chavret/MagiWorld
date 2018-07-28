@@ -1,12 +1,11 @@
 package com.company.models;
 
-import com.company.Personnage;
-
 public class Guerrier extends Personnage {
     public Guerrier(int niveau, int force, int agilite, int intelligence, int playerNumber) {
         super(niveau, force, agilite, intelligence, playerNumber);
     }
 
+    // PUBLIC
     @Override
     public void basicAttack(Personnage p) {
         System.out.println("Joueur " + getPlayerNumber() + " utilise Coup d'épée et inflige " + getForce() + " dommages");
@@ -20,6 +19,7 @@ public class Guerrier extends Personnage {
         removeVie(getForce()/2);
     }
 
+    // PROTECTED
     @Override
     protected String crie() { return "Woarg"; }
 }

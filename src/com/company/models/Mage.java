@@ -1,7 +1,5 @@
 package com.company.models;
 
-import com.company.Personnage;
-
 public class Mage extends Personnage {
 
     private static int vie_initiale;
@@ -11,6 +9,7 @@ public class Mage extends Personnage {
         vie_initiale = niveau * 5;
     }
 
+    // PUBLIC
     @Override
     public void basicAttack(Personnage p) {
         System.out.println("Joueur " + getPlayerNumber() + " utilise Boule de Feu et inflige " + getIntelligence() + " dommages");
@@ -25,6 +24,7 @@ public class Mage extends Personnage {
         System.out.print("gagne " + (getVie() - currentVie) + " en Vitalité\n");
     }
 
+    // PROTECTED
     @Override
     protected String crie() { return "Abracadabra"; }
 }
