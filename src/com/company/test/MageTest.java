@@ -16,6 +16,10 @@ class MageTest {
     }
 
     @Test
-    void specialAttack() {
+    public void SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP() {
+        Mage attack = new Mage(7, 0, 0, 7, 1);
+        attack.removeVie(15);
+        attack.specialAttack(attack);
+        assertTrue(attack.getVie() == 34);
     }
 }

@@ -9,12 +9,15 @@ public class Guerrier extends Personnage {
 
     @Override
     public void basicAttack(Personnage p) {
-
+        System.out.println("Joueur " + getPlayerNumber() + " utilise Coup d'épée et inflige " + getForce() + " dommages");
+        p.removeVie(getForce());
     }
 
     @Override
     public void specialAttack(Personnage p) {
-
+        System.out.println("Joueur " + getPlayerNumber() + " utilise Coup de Rage et inflige " + getForce()*2 + " dommages");
+        p.removeVie(getForce()*2);
+        removeVie(getForce()/2);
     }
 
     @Override

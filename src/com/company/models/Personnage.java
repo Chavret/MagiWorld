@@ -25,6 +25,16 @@ public abstract class Personnage {
 
     public abstract void specialAttack(Personnage p);
 
+    public void removeVie(int dommages) {
+        int oldVie = this.vie;
+        this.vie = (this.vie - dommages >= 0) ? this.vie - dommages : 0;
+        System.out.println("Joueur " + getPlayerNumber() + " perd " + (oldVie - this.vie) + " points de vie");
+    }
+
+    public void addVie(int vie) {
+        this.vie = this.vie + vie;
+    }
+
     public int getNiveau() {
         return niveau;
     }
@@ -48,7 +58,7 @@ public abstract class Personnage {
     public int getPlayerNumber() { return playerNumber; }
 
     public String introduce() {
-        return (crie() +  " je suis le " + this.getClass().getSimpleName() +
+        return (crie() +  " je suis le " + getClass().getSimpleName() +
             " joueur " + getPlayerNumber() + " niveau " + getNiveau() + " je possède " +
             getVie() + " de vitalité, " + getForce() + " de force, " +
             getAgilite() + " d'agilite et " + getIntelligence() + " d'intelligence");
