@@ -12,13 +12,13 @@ public class Game {
 
     public Game() throws IOException {
         this.player1 = createPlayer(1);
-        System.out.print(player1.introduce() + " joueur 1 niveau " + player1.getNiveau() + " je possède ");
-        System.out.print(player1.getVie() + " de vitalité, " + player1.getForce() + " de force, ");
-        System.out.print(player1.getAgilite() + " d'agilite et " + player1.getIntelligence() + " d'intelligence");
+        if (this.player1 != null) {
+            System.out.print(player1.introduce("1"));
+        }
         this.player2 = createPlayer(2);
-        System.out.print(player2.introduce() + " joueur 2 niveau " + player2.getNiveau() + " je possède ");
-        System.out.print(player2.getVie() + " de vitalité, " + player2.getForce() + " de force, ");
-        System.out.print(player2.getAgilite() + " d'agilite et " + player2.getIntelligence() + " d'intelligence");
+        if (this.player2 != null) {
+            System.out.print(player2.introduce("2"));
+        }
     }
 
     private Personnage createPlayer(int playerNumber) throws IOException {
@@ -45,6 +45,10 @@ public class Game {
     }
 
     public void run() {
+        // Base stats of players
+        int[] player1Stats = {player1.getVie(), player1.getForce(), player1.getAgilite(), player1.getIntelligence()};
+        int[] player2Stats = {player2.getVie(), player2.getForce(), player2.getAgilite(), player2.getIntelligence()};
+        // game execution
         while (this.player1.getVie() > 0 && this.player2.getVie() > 0) {
 
         }

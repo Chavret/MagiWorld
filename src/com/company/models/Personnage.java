@@ -43,8 +43,11 @@ public class Personnage {
         return intelligence;
     }
 
-    public String introduce() {
-        return crie() +  " je suis le " + this.getClass().getSimpleName();
+    public String introduce(String playerNumber) {
+        return (crie() +  " je suis le " + this.getClass().getSimpleName() +
+        " joueur " + playerNumber + " niveau " + getNiveau() + " je possède " +
+        getVie() + " de vitalité, " + getForce() + " de force, " +
+        getAgilite() + " d'agilite et " + getIntelligence() + " d'intelligence");
     }
 
     protected String crie() {return "";}
