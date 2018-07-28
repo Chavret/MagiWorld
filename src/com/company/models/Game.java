@@ -10,17 +10,33 @@ public class Game {
     private Personnage player1;
     private Personnage player2;
 
+    // PUBLIC
     public Game() throws IOException {
         this.player1 = createPlayer(1);
         if (this.player1 != null) {
-            System.out.print(player1.introduce("1"));
+            System.out.println(player1.introduce());
         }
         this.player2 = createPlayer(2);
         if (this.player2 != null) {
-            System.out.print(player2.introduce("2"));
+            System.out.println(player2.introduce());
         }
     }
 
+    public void run() {
+        // Base stats of players
+        int[] player1Stats = {player1.getVie(), player1.getForce(), player1.getAgilite(), player1.getIntelligence()};
+        int[] player2Stats = {player2.getVie(), player2.getForce(), player2.getAgilite(), player2.getIntelligence()};
+        int turn = 0;
+        String playerNumber = "";
+        // game execution
+        while (this.player1.getVie() > 0 && this.player2.getVie() > 0) {
+            playerNumber = (turn % 2 == 0) ? "2" : "1";
+            if (playerNumber == "1") turn(player1, player2);
+            else turn(player2, player1);
+        }
+    }
+
+    // PRIVATE
     private Personnage createPlayer(int playerNumber) throws IOException {
         System.out.println("Création du personnage du joueur " + playerNumber);
         System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)");
@@ -36,7 +52,19 @@ public class Game {
         int intelligence = sc.nextInt();
         Personnage p = null;
         try {
-            p = new Personnage(niveau, force, agilite, intelligence);
+            switch (playerClass) {
+                case 1:
+                    p = new Guerrier(niveau, force, agilite, intelligence, playerNumber);
+                    break;
+                case 2:
+                    p = new Rodeur(niveau, force, agilite, intelligence, playerNumber);
+                    break;
+                case 3:
+                    p = new Mage(niveau, force, agilite, intelligence, playerNumber);
+                    break;
+                default:
+                    System.out.println("La classe choisie n'existe pas !");
+            }
             return p;
         } catch (SommeCaracteristiqueSuperieurAuNiveau s) {
             System.out.println("Le personnage " + playerNumber +" a trop de compétences par rapport à son niveau");
@@ -44,13 +72,17 @@ public class Game {
         return p;
     }
 
-    public void run() {
-        // Base stats of players
-        int[] player1Stats = {player1.getVie(), player1.getForce(), player1.getAgilite(), player1.getIntelligence()};
-        int[] player2Stats = {player2.getVie(), player2.getForce(), player2.getAgilite(), player2.getIntelligence()};
-        // game execution
-        while (this.player1.getVie() > 0 && this.player2.getVie() > 0) {
+    private void turn(Personnage attackPlayer, Personnage defensePlayer) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(player1.askPlayerAction());
+        int action = sc.nextInt();
+        if (action == 1) {
 
+        } else if (action == 2) {
+
+        } else {
+            System.out.println("Veuillez choisir une action valide (1 ou 2)");
+            turn(attackPlayer, defensePlayer);
         }
     }
 }

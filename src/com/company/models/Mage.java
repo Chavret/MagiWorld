@@ -3,8 +3,8 @@ package com.company.models;
 import com.company.Personnage;
 
 public class Mage extends Personnage {
-    public Mage(int niveau, int force, int agilite, int intelligence) {
-        super(niveau, force, agilite, intelligence);
+    public Mage(int niveau, int force, int agilite, int intelligence, int playerNumber) {
+        super(niveau, force, agilite, intelligence, playerNumber);
     }
 
     @Override
@@ -18,7 +18,5 @@ public class Mage extends Personnage {
     }
 
     @Override
-    protected String crie() {
-        return "Abracadabra";
-    }
+    protected String crie() { return "Abracadabra"; }
 }

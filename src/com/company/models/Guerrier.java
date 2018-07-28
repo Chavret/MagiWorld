@@ -3,8 +3,8 @@ package com.company.models;
 import com.company.Personnage;
 
 public class Guerrier extends Personnage {
-    public Guerrier(int niveau, int force, int agilite, int intelligence) {
-        super(niveau, force, agilite, intelligence);
+    public Guerrier(int niveau, int force, int agilite, int intelligence, int playerNumber) {
+        super(niveau, force, agilite, intelligence, playerNumber);
     }
 
     @Override
@@ -18,7 +18,5 @@ public class Guerrier extends Personnage {
     }
 
     @Override
-    protected String crie() {
-        return "Woarg";
-    }
+    protected String crie() { return "Woarg"; }
 }
