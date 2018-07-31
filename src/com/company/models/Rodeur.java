@@ -13,16 +13,26 @@ public class Rodeur extends Personnage {
         p.removeVie(getAgilite());
     }
 
+    /**
+     * augmente l'agilite du rodeur
+     * @param p
+     *              paametre obsolete ici
+     */
     @Override
     public void specialAttack(Personnage p) {
-        System.out.print("Joueur " + getPlayerNumber() + " utilise Concentration et ");
         addAgilité(getAgilite()/2);
-        System.out.print("gagne " + getAgilite()/2 + " en Agilité\n");
     }
 
     // PROTECTED
     @Override
     protected String crie() {
         return "Voila!!";
+    }
+
+    // PRIVATE
+    private void addAgilité(int agi) {
+        setAgilite(getAgilite() + agi);
+        System.out.print("Joueur " + getPlayerNumber() + " utilise Concentration et ");
+        System.out.print("gagne " + agi + " en Agilité\n");
     }
 }

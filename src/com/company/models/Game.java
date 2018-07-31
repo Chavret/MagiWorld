@@ -11,6 +11,12 @@ public class Game {
     private Personnage player2;
 
     // PUBLIC
+
+    /**
+     * contructeur du jeu
+     * @throws IOException
+     *                  les erreurs d'input
+     */
     public Game() throws IOException {
         this.player1 = createPlayer(1);
         if (player1 != null) {
@@ -22,17 +28,21 @@ public class Game {
         }
     }
 
+    /**
+     * cette methode fait tourner le jeu jusqu'a ce qu'un joueur soit mort
+     */
     public void run() {
         // Base stats of players
         int[] player1Stats = {player1.getVie(), player1.getForce(), player1.getAgilite(), player1.getIntelligence()};
         int[] player2Stats = {player2.getVie(), player2.getForce(), player2.getAgilite(), player2.getIntelligence()};
-        int turn = 0;
+        int turn = 1;
         String playerNumber = "";
         // game execution
         while (player1.getVie() > 0 && player2.getVie() > 0) {
             playerNumber = (turn % 2 == 0) ? "2" : "1";
             if (playerNumber == "1") turn(player1, player2);
             else turn(player2, player1);
+            turn++;
         }
         if (player1.getVie() == 0) {
             endGame(player1);
@@ -87,7 +97,7 @@ public class Game {
 
     private void turn(Personnage attackPlayer, Personnage defensePlayer) {
         Scanner sc = new Scanner(System.in);
-        System.out.println(player1.askPlayerAction());
+        System.out.println(attackPlayer.askPlayerAction());
         int action = sc.nextInt();
         if (action == 1) {
             attackPlayer.basicAttack(defensePlayer);

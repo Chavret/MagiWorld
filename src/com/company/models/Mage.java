@@ -16,15 +16,26 @@ public class Mage extends Personnage {
         p.removeVie(getIntelligence());
     }
 
+    /**
+     * rend des points de vie au mage
+     * @param p
+     *              Parametre obsolete ici
+     */
     @Override
     public void specialAttack(Personnage p) {
-        // System.out.print("Joueur " + getPlayerNumber() + " utilise Soin et ");
         int currentVie = getVie();
         addVie(((currentVie + getIntelligence()*2) > vie_initiale) ? vie_initiale - getVie() : getIntelligence()*2);
-        // System.out.print("gagne " + (getVie() - currentVie) + " en Vitalité\n");
     }
 
     // PROTECTED
     @Override
     protected String crie() { return "Abracadabra"; }
+
+    // PRIVATE
+    private void addVie(int vie) {
+        int currentVie = getVie();
+        setVie(getVie() + vie);
+        System.out.print("Joueur " + getPlayerNumber() + " utilise Soin et ");
+        System.out.print("gagne " + (getVie() - currentVie) + " en Vitalité\n");
+    }
 }
