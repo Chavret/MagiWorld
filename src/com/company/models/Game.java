@@ -13,11 +13,11 @@ public class Game {
     // PUBLIC
     public Game() throws IOException {
         this.player1 = createPlayer(1);
-        if (this.player1 != null) {
+        if (player1 != null) {
             System.out.println(player1.introduce());
         }
         this.player2 = createPlayer(2);
-        if (this.player2 != null) {
+        if (player2 != null) {
             System.out.println(player2.introduce());
         }
     }

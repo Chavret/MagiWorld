@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f417c978-99a1-4ee8-a9a3-c75530f60c08" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/models/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Mage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/models/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/test/MageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/test/MageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/test/PersonnageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/test/PersonnageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,55 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Personnage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Personnage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="414">
+              <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/models/Game.java">
+      <file leaf-file-name="MageTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/test/MageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1411#1412#0" expanded="true" />
-                <element signature="e#1446#1447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="172">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rodeur.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/models/Rodeur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Guerrier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="10" column="91" lean-forward="true" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -72,8 +42,8 @@
       <file leaf-file-name="Mage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/models/Mage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="20" column="78" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="78" />
+            <state relative-caret-position="146">
+              <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -110,18 +80,19 @@
         <option value="$PROJECT_DIR$/src/com/company/SommeCaracteristiqueSuperieurAuNiveau.java" />
         <option value="$PROJECT_DIR$/src/models/Personnage.java" />
         <option value="$PROJECT_DIR$/src/com/company/exceptions/SommeCaracteristiqueSuperieurAuNiveau.java" />
-        <option value="$PROJECT_DIR$/src/com/company/test/PersonnageTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/models/MageTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/models/RodeurTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/GuerrierTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/test/MageTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/RodeurTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/models/Rodeur.java" />
         <option value="$PROJECT_DIR$/src/com/company/models/Guerrier.java" />
-        <option value="$PROJECT_DIR$/src/com/company/models/Mage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/models/Game.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/PersonnageTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/models/Game.java" />
         <option value="$PROJECT_DIR$/src/com/company/models/Personnage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/models/Rodeur.java" />
+        <option value="$PROJECT_DIR$/src/com/company/models/Mage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/MageTest.java" />
       </list>
     </option>
   </component>
@@ -228,30 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.company.test in MagiWorld">
-    <configuration name="GuerrierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MagiWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.test" />
-      <option name="MAIN_CLASS_NAME" value="com.company.test.GuerrierTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life">
     <configuration name="MageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MagiWorld" />
       <extension name="coverage">
@@ -275,7 +223,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonnageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MagiWorld" />
       <extension name="coverage">
         <pattern>
@@ -286,9 +234,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.test" />
-      <option name="MAIN_CLASS_NAME" value="com.company.test.PersonnageTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.MageTest" />
+      <option name="METHOD_NAME" value="Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -298,7 +246,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RodeurTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MageTest.BasiqueAttackDommage_Are_Equals_To_MageIntelligence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MagiWorld" />
       <extension name="coverage">
         <pattern>
@@ -309,9 +257,32 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.test" />
-      <option name="MAIN_CLASS_NAME" value="com.company.test.RodeurTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.MageTest" />
+      <option name="METHOD_NAME" value="BasiqueAttackDommage_Are_Equals_To_MageIntelligence" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.MageTest" />
+      <option name="METHOD_NAME" value="SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -345,19 +316,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PersonnageTest" />
       <item itemvalue="JUnit.com.company.test in MagiWorld" />
-      <item itemvalue="JUnit.GuerrierTest" />
       <item itemvalue="JUnit.MageTest" />
-      <item itemvalue="JUnit.RodeurTest" />
+      <item itemvalue="JUnit.MageTest.BasiqueAttackDommage_Are_Equals_To_MageIntelligence" />
+      <item itemvalue="JUnit.MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" />
+      <item itemvalue="JUnit.MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.company.test in MagiWorld" />
-        <item itemvalue="JUnit.RodeurTest" />
+        <item itemvalue="JUnit.MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" />
+        <item itemvalue="JUnit.MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" />
+        <item itemvalue="JUnit.MageTest.BasiqueAttackDommage_Are_Equals_To_MageIntelligence" />
         <item itemvalue="JUnit.MageTest" />
-        <item itemvalue="JUnit.GuerrierTest" />
-        <item itemvalue="JUnit.PersonnageTest" />
+        <item itemvalue="JUnit.com.company.test in MagiWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -380,26 +351,11 @@
       <workItem from="1532609750762" duration="6110000" />
       <workItem from="1532784040429" duration="4104000" />
       <workItem from="1532788746946" duration="7081000" />
-      <workItem from="1533047437174" duration="1459000" />
+      <workItem from="1533047437174" duration="2608000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MageTest - 2018.07.28 at 18h 16m 34s.xml">
-      <configuration name="MageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MageTest - 2018.07.28 at 18h 17m 08s.xml">
-      <configuration name="MageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MageTest - 2018.07.28 at 18h 18m 19s.xml">
-      <configuration name="MageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RodeurTest - 2018.07.28 at 18h 21m 05s.xml">
-      <configuration name="RodeurTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RodeurTest - 2018.07.28 at 18h 22m 04s.xml">
-      <configuration name="RodeurTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RodeurTest - 2018.07.28 at 18h 26m 44s.xml">
       <configuration name="RodeurTest" configurationId="JUnit" />
     </history-entry>
@@ -415,12 +371,28 @@
     <history-entry file="com_company_test_in_MagiWorld - 2018.07.31 at 16h 42m 25s.xml">
       <configuration name="com.company.test in MagiWorld" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MageTest - 2018.07.31 at 17h 15m 57s.xml">
+      <configuration name="MageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest - 2018.07.31 at 17h 17m 30s.xml">
+      <configuration name="MageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest - 2018.07.31 at 17h 19m 45s.xml">
+      <configuration name="MageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_BasiqueAttackDommage_Are_Equals_To_MageIntelligence - 2018.07.31 at 17h 20m 17s.xml">
+      <configuration name="MageTest.BasiqueAttackDommage_Are_Equals_To_MageIntelligence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP - 2018.07.31 at 17h 20m 25s.xml">
+      <configuration name="MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20841000" />
+    <option name="totallyTimeSpent" value="21990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1260" height="680" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -432,11 +404,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49834985" visible="true" weight="0.16904762" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49834985" visible="true" weight="0.16904762" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" sideWeight="0.50165015" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -451,36 +423,6 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32838285" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49834985" visible="true" weight="0.16904762" />
-      <window_info id="Structure" order="6" sideWeight="0.50165015" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32838285" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -752,29 +694,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/PersonnageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="99" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/models/MageTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/models/RodeurTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/test/RodeurTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/test/MageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -788,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/models/Rodeur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -805,10 +723,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/PersonnageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Rodeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="91" lean-forward="true" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/models/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="107">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1411#1412#0" expanded="true" />
@@ -817,24 +769,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" column="91" lean-forward="true" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="91" />
+        <state relative-caret-position="414">
+          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/models/Mage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="20" column="78" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="78" />
+        <state relative-caret-position="146">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/MageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="172">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -23,27 +23,23 @@ public abstract class Personnage {
 
     // PUBLIC
     public void removeVie(int dommages) {
-        int oldVie = this.vie;
+        int oldVie = vie;
 
         if (dommages > 0) {
-            this.vie = (this.vie - dommages >= 0) ? this.vie - dommages : 0;
-            System.out.println("Joueur " + getPlayerNumber() + " perd " + (oldVie - this.vie) + " points de vie");
+            vie = (vie - dommages >= 0) ? vie - dommages : 0;
+            System.out.println("Joueur " + getPlayerNumber() + " perd " + (oldVie - vie) + " points de vie");
         }
     }
 
     public void addVie(int vie) {
-        int currentVie = getVie();
+        int currentVie = this.vie;
         this.vie = this.vie + vie;
         System.out.print("Joueur " + getPlayerNumber() + " utilise Soin et ");
-        System.out.print("gagne " + (getVie() - currentVie) + " en Vitalité\n");
+        System.out.print("gagne " + (this.vie - currentVie) + " en Vitalité\n");
     }
 
     public void addAgilité(int agi) {
         this.agilite = this.agilite + agi;
-    }
-
-    public int getNiveau() {
-        return niveau;
     }
 
     public int getVie() {
@@ -66,13 +62,13 @@ public abstract class Personnage {
 
     public String introduce() {
         return (crie() +  " je suis le " + getClass().getSimpleName() +
-            " joueur " + getPlayerNumber() + " niveau " + getNiveau() + " je possède " +
-            getVie() + " de vitalité, " + getForce() + " de force, " +
-            getAgilite() + " d'agilite et " + getIntelligence() + " d'intelligence");
+            " joueur " + playerNumber + " niveau " + niveau + " je possède " +
+            vie + " de vitalité, " + force + " de force, " +
+            agilite + " d'agilite et " + intelligence + " d'intelligence");
     }
 
     public String askPlayerAction() {
-        return ("Joueur " + getPlayerNumber() + "(" + getVie() + ") veuillez choisir votre action " +
+        return ("Joueur " + playerNumber + "(" + vie + ") veuillez choisir votre action " +
                 "(1 : Attaque Basique, 2 : Attaque Spécial)");
     }
 

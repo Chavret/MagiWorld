@@ -18,10 +18,10 @@ public class Mage extends Personnage {
 
     @Override
     public void specialAttack(Personnage p) {
-        System.out.print("Joueur " + getPlayerNumber() + " utilise Soin et ");
+        // System.out.print("Joueur " + getPlayerNumber() + " utilise Soin et ");
         int currentVie = getVie();
-        addVie(((currentVie + getIntelligence()*2) > vie_initiale) ? getVie() - vie_initiale : getIntelligence()*2);
-        System.out.print("gagne " + (getVie() - currentVie) + " en Vitalité\n");
+        addVie(((currentVie + getIntelligence()*2) > vie_initiale) ? vie_initiale - getVie() : getIntelligence()*2);
+        // System.out.print("gagne " + (getVie() - currentVie) + " en Vitalité\n");
     }
 
     // PROTECTED

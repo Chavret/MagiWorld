@@ -1,6 +1,6 @@
 package com.company.test;
 
-import com.company.models.Mage;
+import com.company.models.*;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -17,9 +17,17 @@ class MageTest {
 
     @Test
     public void SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP() {
-        Mage attack = new Mage(7, 0, 0, 7, 1);
-        attack.removeVie(15);
-        attack.specialAttack(attack);
-        assertTrue(attack.getVie() == 34);
+        Mage mage = new Mage(7, 0, 0, 7, 1);
+        mage.removeVie(15);
+        mage.specialAttack(mage);
+        assertTrue(mage.getVie() == 34);
+    }
+
+    @Test
+    public void Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life() {
+        Personnage mage = new Mage(10, 0, 0, 10, 1);
+        mage.removeVie(10);
+        mage.specialAttack(mage);
+        assertTrue(mage.getVie() == 50);
     }
 }
