@@ -29,14 +29,23 @@ public class Game {
         int turn = 0;
         String playerNumber = "";
         // game execution
-        while (this.player1.getVie() > 0 && this.player2.getVie() > 0) {
+        while (player1.getVie() > 0 && player2.getVie() > 0) {
             playerNumber = (turn % 2 == 0) ? "2" : "1";
             if (playerNumber == "1") turn(player1, player2);
             else turn(player2, player1);
         }
+        if (player1.getVie() == 0) {
+            endGame(player1);
+        } else {
+            endGame(player2);
+        }
     }
 
     // PRIVATE
+    private void endGame(Personnage player) {
+        System.out.println("Joueur " + player.getPlayerNumber() + " a perdu !");
+    }
+
     private Personnage createPlayer(int playerNumber) throws IOException {
         System.out.println("Création du personnage du joueur " + playerNumber);
         System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)");

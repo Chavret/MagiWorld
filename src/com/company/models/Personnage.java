@@ -32,7 +32,10 @@ public abstract class Personnage {
     }
 
     public void addVie(int vie) {
+        int currentVie = getVie();
         this.vie = this.vie + vie;
+        System.out.print("Joueur " + getPlayerNumber() + " utilise Soin et ");
+        System.out.print("gagne " + (getVie() - currentVie) + " en Vitalité\n");
     }
 
     public void addAgilité(int agi) {
