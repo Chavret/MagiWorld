@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f417c978-99a1-4ee8-a9a3-c75530f60c08" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/models/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/models/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Personnage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/models/Rodeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Rodeur.java" afterDir="false" />
-    </list>
+    <list default="true" id="f417c978-99a1-4ee8-a9a3-c75530f60c08" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +15,7 @@
       <file leaf-file-name="Personnage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="-356">
               <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="e#1345#1346#0" expanded="true" />
@@ -390,7 +384,7 @@
       <workItem from="1532609750762" duration="6110000" />
       <workItem from="1532784040429" duration="4104000" />
       <workItem from="1532788746946" duration="7081000" />
-      <workItem from="1533047437174" duration="4777000" />
+      <workItem from="1533047437174" duration="4905000" />
     </task>
     <servers />
   </component>
@@ -427,7 +421,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24159000" />
+    <option name="totallyTimeSpent" value="24287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1260" height="680" extended-state="0" />
@@ -443,7 +437,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.45544556" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.95049506" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -902,7 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="-356">
           <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="e#1345#1346#0" expanded="true" />
