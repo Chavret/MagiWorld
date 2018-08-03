@@ -1,19 +1,38 @@
 package com.company.models;
 
-import com.company.Personnage;
-
 public class Rodeur extends Personnage {
-    public Rodeur(int niveau, int vie, int force, int agilite, int intelligence) {
-        super(niveau, vie, force, agilite, intelligence);
+
+    public Rodeur(int niveau, int force, int agilite, int intelligence, int playerNumber) {
+        super(niveau, force, agilite, intelligence, playerNumber);
     }
 
+    // PUBLIC
     @Override
     public void basicAttack(Personnage p) {
-        super.basicAttack(p);
+        System.out.println("Joueur " + getPlayerNumber() + " utilise Tir à l'Arc et inflige " + getAgilite() + " dommages");
+        p.removeVie(getAgilite());
     }
 
+    /**
+     * augmente l'agilite du rodeur
+     * @param p
+     *              paametre obsolete ici
+     */
     @Override
     public void specialAttack(Personnage p) {
-        super.specialAttack(p);
+        addAgilité(getAgilite()/2);
+    }
+
+    // PROTECTED
+    @Override
+    protected String crie() {
+        return "Voila!!";
+    }
+
+    // PRIVATE
+    private void addAgilité(int agi) {
+        setAgilite(getAgilite() + agi);
+        System.out.print("Joueur " + getPlayerNumber() + " utilise Concentration et ");
+        System.out.print("gagne " + agi + " en Agilité\n");
     }
 }

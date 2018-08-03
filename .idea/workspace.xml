@@ -12,20 +12,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Personnage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Personnage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="-356">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#1906#1907#0" expanded="true" />
+                <element signature="e#1934#1935#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#2031#2032#0" expanded="true" />
+                <element signature="e#2066#2067#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonnageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/test/PersonnageTest.java">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/models/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="28">
+              <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,23 +52,35 @@
       <file leaf-file-name="Rodeur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/models/Rodeur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="185">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Guerrier.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Guerrier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="91" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/test/MageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,23 +88,8 @@
       <file leaf-file-name="Mage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/models/Mage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SommeCaracteristiqueSuperieurAuNiveau.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/exceptions/SommeCaracteristiqueSuperieurAuNiveau.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="262">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -84,10 +100,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>player1</find>
+      <find>Guerrier</find>
+      <find>Mage</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Mage</replace>
+      <replace>Rodeur</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -96,12 +126,19 @@
         <option value="$PROJECT_DIR$/src/com/company/SommeCaracteristiqueSuperieurAuNiveau.java" />
         <option value="$PROJECT_DIR$/src/models/Personnage.java" />
         <option value="$PROJECT_DIR$/src/com/company/exceptions/SommeCaracteristiqueSuperieurAuNiveau.java" />
+        <option value="$PROJECT_DIR$/src/com/company/models/MageTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/models/RodeurTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/GuerrierTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/RodeurTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/models/Guerrier.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/test/PersonnageTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/models/Personnage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/test/MageTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/models/Mage.java" />
         <option value="$PROJECT_DIR$/src/com/company/models/Rodeur.java" />
-        <option value="$PROJECT_DIR$/src/com/company/models/Guerrier.java" />
+        <option value="$PROJECT_DIR$/src/com/company/models/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/company/models/Personnage.java" />
       </list>
     </option>
   </component>
@@ -115,8 +152,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="42" />
+    <option name="y" value="22" />
     <option name="width" value="1260" />
     <option name="height" value="680" />
   </component>
@@ -125,8 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +197,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -179,10 +215,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.company.test" />
+      <recent name="com.company.models" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.company.models" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -204,19 +245,129 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="MagiWorld" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
+    <configuration name="MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.MageTest" />
+      <option name="METHOD_NAME" value="Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MageTest.BasiqueAttackDommage_Are_Equals_To_MageIntelligence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.MageTest" />
+      <option name="METHOD_NAME" value="BasiqueAttackDommage_Are_Equals_To_MageIntelligence" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.test.MageTest" />
+      <option name="METHOD_NAME" value="SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="com.company.test in MagiWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.test" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.com.company.test in MagiWorld" />
+      <item itemvalue="JUnit.MageTest.BasiqueAttackDommage_Are_Equals_To_MageIntelligence" />
+      <item itemvalue="JUnit.MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" />
+      <item itemvalue="JUnit.MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.com.company.test in MagiWorld" />
+        <item itemvalue="JUnit.MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" />
+        <item itemvalue="JUnit.MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" />
+        <item itemvalue="JUnit.MageTest.BasiqueAttackDommage_Are_Equals_To_MageIntelligence" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -230,31 +381,70 @@
       <updated>1532185759187</updated>
       <workItem from="1532185760561" duration="2077000" />
       <workItem from="1532188457091" duration="10000" />
+      <workItem from="1532609750762" duration="6110000" />
+      <workItem from="1532784040429" duration="4104000" />
+      <workItem from="1532788746946" duration="7081000" />
+      <workItem from="1533047437174" duration="4905000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MageTest - 2018.07.31 at 17h 15m 57s.xml">
+      <configuration name="MageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest - 2018.07.31 at 17h 17m 30s.xml">
+      <configuration name="MageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest - 2018.07.31 at 17h 19m 45s.xml">
+      <configuration name="MageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_BasiqueAttackDommage_Are_Equals_To_MageIntelligence - 2018.07.31 at 17h 20m 17s.xml">
+      <configuration name="MageTest.BasiqueAttackDommage_Are_Equals_To_MageIntelligence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP - 2018.07.31 at 17h 20m 25s.xml">
+      <configuration name="MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP - 2018.07.31 at 17h 20m 50s.xml">
+      <configuration name="MageTest.SpecialAttack_Restore_TwoTimes_Is_Intelligence_HP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life - 2018.07.31 at 17h 20m 54s.xml">
+      <configuration name="MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MageTest_Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life - 2018.07.31 at 17h 21m 01s.xml">
+      <configuration name="MageTest.Add_More_Life_Than_Caractere_Has_Initialy_Dont_Set_More_Than_Initial_Life" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_company_test_in_MagiWorld - 2018.07.31 at 17h 41m 34s.xml">
+      <configuration name="com.company.test in MagiWorld" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_company_test_in_MagiWorld - 2018.07.31 at 17h 48m 18s.xml">
+      <configuration name="com.company.test in MagiWorld" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2087000" />
+    <option name="totallyTimeSpent" value="24287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="42" width="1260" height="680" extended-state="0" />
+    <frame x="0" y="22" width="1260" height="680" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.95049506" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49834985" weight="0.16904762" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info id="Structure" order="6" sideWeight="0.50165015" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -265,9 +455,37 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32838285" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.45544556" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49834985" visible="true" weight="0.16904762" />
+      <window_info id="Structure" order="6" sideWeight="0.50165015" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32838285" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -275,7 +493,243 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Rodeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/exceptions/SommeCaracteristiqueSuperieurAuNiveau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/PersonnageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="86" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Rodeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/exceptions/SommeCaracteristiqueSuperieurAuNiveau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/PersonnageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Rodeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/exceptions/SommeCaracteristiqueSuperieurAuNiveau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -294,12 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -307,12 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -331,69 +773,145 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SommeCaracteristiqueSuperieurAuNiveau.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Personnage.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java" />
     <entry file="file://$PROJECT_DIR$/src/models/Personnage.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/out/production/MagiWorld/com/company/Personnage.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/function/Executable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="180">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/MagiWorld/com/company/Personnage.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/exceptions/SommeCaracteristiqueSuperieurAuNiveau.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/MageTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/RodeurTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/RodeurTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/GuerrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/test/PersonnageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/test/MageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/allclasses-noframe.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/allclasses-frame.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/models/Mage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="262">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/models/Rodeur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="185">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/models/Guerrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="91" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/models/Personnage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
